@@ -1,0 +1,1 @@
+This is the starter for my booking app. Install its packages (npm install), then start it (npm run dev) and open the page in the Browser pane. Tell me in one or two sentences what you did and what the page shows.

@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* The colors and fonts from DESIGN.md */
+@theme {
+  --color-paper: #fffaf2;
+  --color-card: #ffffff;
+  --color-line: #e6dccb;
+  --color-ink: #1d2b2a;
+  --color-muted: #566260;
+  --color-accent: #0f7b6c;
+  --font-heading: var(--font-bricolage), Georgia, serif;
+  --font-body: var(--font-source-sans), Georgia, serif;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.15;
+}

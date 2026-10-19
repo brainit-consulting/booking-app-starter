@@ -1,0 +1,1 @@
+Read docs/spec.md and DESIGN.md. On the home page, under the "coming soon" note, add the three services from the spec with their prices for small, medium and large dogs, following DESIGN.md. Plan first: tell me in a few lines what you'll change, then wait for my OK.
