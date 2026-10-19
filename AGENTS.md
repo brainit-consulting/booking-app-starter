@@ -19,7 +19,8 @@ Claude Code and Codex alike (CLAUDE.md and AGENTS.md say the same thing).
 
 - What the app does: `docs/spec.md`. How it looks: `DESIGN.md`. Follow both; ask before changing either.
 - Next.js (App Router) with Tailwind CSS, TypeScript. Pages live in `app/`.
-- The owner works on Windows; commands run in PowerShell.
+- The owner works on Windows; commands run in PowerShell. On Windows, run npm as `npm.cmd` (for example
+  `npm.cmd install`, `npm.cmd run dev`): Windows often blocks the `npm` script PowerShell would otherwise use.
 - Keys and passwords never go in the code. They go in `.env.local`, which is never saved to Git or sent anywhere.
 - Don't add new packages without saying why and asking first.
 
