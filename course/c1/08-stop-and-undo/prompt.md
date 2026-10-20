@@ -1,1 +1,1 @@
-Make the services list easier to read on a phone: one service per row, with its prices underneath its name. When it works, make a save point (git commit) with a clear message.
+Under the services, add a short "How it works" section with three numbered steps: pick a service, choose a time, and we come to you. Follow DESIGN.md. When it works, make a save point (git commit) with a clear message.
