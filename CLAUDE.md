@@ -14,6 +14,9 @@ Claude Code and Codex alike (CLAUDE.md and AGENTS.md say the same thing).
 - If something fails twice, stop. Explain what went wrong in plain words and suggest what to try, instead of a third
   guess.
 - If the request is unclear, ask one question rather than guessing.
+- To stop a program you started (such as a test server), stop only that one, by its port or process number. Never
+  stop all Node programs at once (no `taskkill /IM node.exe`, no `Stop-Process -Name node`): other apps on this
+  computer, including the Claude app itself, use Node too.
 
 ## The project
 
